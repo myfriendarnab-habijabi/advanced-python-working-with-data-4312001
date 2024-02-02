@@ -8,25 +8,54 @@
 			"NODE_VERSION": "lts/*"
 		}
 	},
-	"settings": { 
-		"python.defaultInterpreterPath": "/usr/local/bin/python",
-		"python.linting.enabled": true,
-		"python.linting.pylintEnabled": true,
-		"python.formatting.autopep8Path": "/usr/local/py-utils/bin/autopep8",
-		"python.formatting.blackPath": "/usr/local/py-utils/bin/black",
-		"python.formatting.yapfPath": "/usr/local/py-utils/bin/yapf",
-		"python.linting.banditPath": "/usr/local/py-utils/bin/bandit",
-		"python.linting.flake8Path": "/usr/local/py-utils/bin/flake8",
-		"python.linting.mypyPath": "/usr/local/py-utils/bin/mypy",
-		"python.linting.pycodestylePath": "/usr/local/py-utils/bin/pycodestyle",
-		"python.linting.pydocstylePath": "/usr/local/py-utils/bin/pydocstyle",
-		"python.linting.pylintPath": "/usr/local/py-utils/bin/pylint",
-		"python.linting.pylintArgs": ["--disable=C0111"]
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"python.defaultInterpreterPath": "/usr/local/bin/python",
+				"python.linting.enabled": true,
+				"python.linting.pylintEnabled": true,
+				"python.formatting.autopep8Path": "/usr/local/py-utils/bin/autopep8",
+				"python.formatting.blackPath": "/usr/local/py-utils/bin/black",
+				"python.formatting.yapfPath": "/usr/local/py-utils/bin/yapf",
+				"python.linting.banditPath": "/usr/local/py-utils/bin/bandit",
+				"python.linting.flake8Path": "/usr/local/py-utils/bin/flake8",
+				"python.linting.mypyPath": "/usr/local/py-utils/bin/mypy",
+				"python.linting.pycodestylePath": "/usr/local/py-utils/bin/pycodestyle",
+				"python.linting.pydocstylePath": "/usr/local/py-utils/bin/pydocstyle",
+				"python.linting.pylintPath": "/usr/local/py-utils/bin/pylint",
+				"python.linting.pylintArgs": [
+					"--disable=C0111"
+				],
+				"editor.bracketPairColorization.enabled": true,
+				"editor.cursorBlinking": "blink",
+				"editor.fontFamily": "'Fira Mono', monospace",
+				"editor.fontLigatures": true,
+				"editor.fontSize": 18,
+				"editor.formatOnPaste": true,
+				"editor.formatOnSave": true,
+				"editor.lineNumbers": "on",
+				"editor.matchBrackets": "always",
+				"editor.minimap.enabled": false,
+				"editor.smoothScrolling": true,
+				"editor.tabSize": 4,
+				"editor.useTabStops": true,
+				"emmet.triggerExpansionOnTab": true,
+				"explorer.openEditors.visible": 1,
+				"files.autoSave": "afterDelay",
+				"screencastMode.onlyKeyboardShortcuts": true,
+				"terminal.integrated.fontSize": 16,
+				"terminal.integrated.enableImages": true,
+				"workbench.colorTheme": "Visual Studio Dark",
+				"workbench.fontAliasing": "antialiased",
+				"workbench.statusBar.visible": true
+			},
+			"extensions": [
+				"ms-python.python",
+				"ms-python.vscode-pylance",
+				"ms-vscode.vs-keybindings"
+			]
+		}
 	},
-	"extensions": [
-		"ms-python.python",
-		"ms-python.vscode-pylance"
-	],
 	"remoteUser": "vscode",
 	"onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc" //Set Terminal Prompt to $
 }
