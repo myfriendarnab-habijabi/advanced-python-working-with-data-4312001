@@ -28,7 +28,7 @@
 				],
 				"editor.bracketPairColorization.enabled": true,
 				"editor.cursorBlinking": "blink",
-				"editor.fontFamily": "'Fira Mono', monospace",
+				"editor.fontFamily": "'Fira Mono'",
 				"editor.fontLigatures": true,
 				"editor.fontSize": 18,
 				"editor.formatOnPaste": true,

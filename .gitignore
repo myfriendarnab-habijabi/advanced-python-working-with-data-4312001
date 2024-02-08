@@ -304,4 +304,4 @@ paket-files/
 *.sln.iml
 
 # VS Code folder
-.vscode/
+# .vscode/
