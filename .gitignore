@@ -305,3 +305,5 @@ paket-files/
 
 # VS Code folder
 # .vscode/
+
+**/largequakes.*
